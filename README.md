@@ -1,0 +1,2 @@
+# NotePad-js
+Javascript project 
