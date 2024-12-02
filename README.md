@@ -1,4 +1,4 @@
 # NotePad-js
 Javascript project 
 <br>
-Author- Nitesh
+Author- Nitesh (javaScript)
