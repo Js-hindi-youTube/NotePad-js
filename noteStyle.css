@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --cursor: pointer;
+}
+#heading {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+}
+
+#head {
+    margin-left: 15px;
+    cursor: var(--cursor);
+}
+
+#btn {
+    margin-right: 20px;
+    cursor: var(--cursor);
+}
+
+#container {
+    min-height: calc(100vh - 6vh);
+
+    width: 100vw;
+    min-width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: rgb(217, 248, 248);
+    cursor: var(--cursor);
+    /* background-image: url("./mahi.jpg");
+    background-size: 100% 100%;
+    background-position:center ;
+    background-repeat: no-repeat; */
+}
+
+.tools {
+    border: 1px solid #000;
+    background-color: black;
+    height: 10%;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+}
+
+.cross {
+    font-weight: 800;
+    margin: 5px;
+    font-size: 25px;
+    color: #fff;
+    cursor: var(--cursor);
+}
+
+.save {
+    margin-right: 10px;
+    cursor: var(--cursor);
+}
+
+.textarea {
+    height: 90%;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+
+.note {
+
+    border: 2px solid gray;
+    margin: 20px;
+    height: 15em;
+    width: 20em;
+}
